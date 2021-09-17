@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "testBench_func_synth.vhd"
+vhdl xil_defaultlib  "../../../../Coin_detector_FSM.srcs/sim_1/new/testBench.vhd"
+
+# Do not sort compile order
+nosort

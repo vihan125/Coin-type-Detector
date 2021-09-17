@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Sep 18 00:02:22 2021
+# Process ID: 7184
+# Current directory: C:/Users/Vihan/coin_detector_FSM/Coin_detector_FSM.runs/synth_1
+# Command line: vivado.exe -log coin_FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source coin_FSM.tcl
+# Log file: C:/Users/Vihan/coin_detector_FSM/Coin_detector_FSM.runs/synth_1/coin_FSM.vds
+# Journal file: C:/Users/Vihan/coin_detector_FSM/Coin_detector_FSM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source coin_FSM.tcl -notrace

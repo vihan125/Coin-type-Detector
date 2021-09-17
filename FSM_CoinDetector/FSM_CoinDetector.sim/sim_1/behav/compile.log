@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Vihan/Documents/GitHub/Coin-type-Detector/FSM_CoinDetector/FSM_CoinDetector.srcs/sources_1/new/D_FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Vihan/Documents/GitHub/Coin-type-Detector/FSM_CoinDetector/FSM_CoinDetector.srcs/sources_1/new/FSM_OneHot.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FSM_OneHot
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Vihan/Documents/GitHub/Coin-type-Detector/FSM_CoinDetector/FSM_CoinDetector.srcs/sim_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestBench
