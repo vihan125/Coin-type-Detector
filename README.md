@@ -7,7 +7,4 @@ Coin type detector of a vending machine that accepts three types of coins as the
 
 ## Implementation
 
-### Capturing fingerprint image
-
-As the first attempt optical flow sensor ADNS 3080 was used to capture the fingerprint image because it is very sensitive to movemnts and has a high resolution with small images.
-ADNS 3080 module takes a image with 30x30 resolution. 
+### state Diagram
