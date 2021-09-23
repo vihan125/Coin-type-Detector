@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1631901836">
+  <File Type="PWROPT-DRC" Name="FSM_OneHot_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="FSM_OneHot_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="FSM_OneHot_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR-RPX" Name="FSM_OneHot_power_routed.rpx"/>
   <File Type="PA-TCL" Name="FSM_OneHot.tcl"/>
-  <File Type="INIT-TIMING" Name="FSM_OneHot_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="FSM_OneHot_methodology_drc_opted.rpt"/>
-  <File Type="PWROPT-DRC" Name="FSM_OneHot_drc_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="FSM_OneHot.hwdef"/>
   <File Type="RDI-RDI" Name="FSM_OneHot.vdi"/>
   <File Type="OPT-DCP" Name="FSM_OneHot_opt.dcp"/>
-  <File Type="OPT-HWDEF" Name="FSM_OneHot.hwdef"/>
   <File Type="OPT-DRC" Name="FSM_OneHot_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="FSM_OneHot_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="FSM_OneHot_pwropt.dcp"/>
@@ -31,14 +31,14 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="FSM_OneHot_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="FSM_OneHot_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="FSM_OneHot_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="FSM_OneHot_drc_routed.rpx"/>
   <File Type="BG-BIN" Name="FSM_OneHot.bin"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="FSM_OneHot_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="FSM_OneHot_drc_routed.rpx"/>
   <File Type="BG-DRC" Name="FSM_OneHot.drc"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="FSM_OneHot_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="FSM_OneHot_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-MSK" Name="FSM_OneHot.msk"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="FSM_OneHot_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="FSM_OneHot_methodology_drc_routed.rpx"/>
   <File Type="BG-BGN" Name="FSM_OneHot.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="FSM_OneHot_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="FSM_OneHot_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="FSM_OneHot_power_summary_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="FSM_OneHot_route_status.rpt"/>
