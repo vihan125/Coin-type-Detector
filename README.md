@@ -36,7 +36,7 @@ one clock period. Based on this condition following assumption was made,
 Otherwise wrong indications can occur as shown in following timing diagram / table.  
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/error.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/error.PNG width="100%" height="100%">
 </p>  
 
 As show in the above timing diagram if there is not at least a two clock cycle gap between 
@@ -51,7 +51,7 @@ like these are of “Don’t care” state.
 ## Timing Diagram
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/timing.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/timing.PNG width="100%" height="100%">
 </p> 
 
 * Note that according to the assumption “The time that a coin will block the sensor is not 
@@ -62,13 +62,13 @@ one clock cycle
 ## Finite State Machine (Moore)
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/state_diagram.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/state_diagram.PNG width="100%" height="100%">
 </p> 
 
 ### State transition table
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/state_table.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/state_table.PNG width="100%" height="100%">
 </p> 
 
 x: Assumed that these states cannot occur in the given scenario, therefore they are “don’t care” 
@@ -77,7 +77,7 @@ states.
 ### State transitions using One-hot encoding
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/state_table_onehot.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/state_table_onehot.PNG width="100%" height="100%">
 </p>
 
 * Present states are represented by the bit sequence: 𝑦6𝑦5𝑦4𝑦3𝑦2𝑦1𝑦0
@@ -91,7 +91,7 @@ encoding approach all other combinations of the present state bits other than th
 bits are as follows,  
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/equations.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/equations.PNG width="100%" height="100%">
 </p>
 
 ## VHDL Implementation
@@ -108,7 +108,7 @@ signal and the value of the signal is changed according to the clock, X, Y, Z in
 imulation file was created to simulate the timing diagram shown in the Table 2
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/simulation.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/simulation.PNG width="100%" height="100%">
 </p>
 
 ### Elaborated Design schematic
@@ -116,13 +116,13 @@ imulation file was created to simulate the timing diagram shown in the Table 2
 * Elaborated design schematic for one-hot encoding using D – flip-flops
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/schematic.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/schematic.PNG width="100%" height="100%">
 </p>
 
 * Elaborated design schematic for one-hot encoding without using D – flip-flops
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/schem2.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/schem2.PNG width="100%" height="100%">
 </p>
 
 ### Resource Utilization
@@ -130,11 +130,11 @@ imulation file was created to simulate the timing diagram shown in the Table 2
 * Resource utilization for one-hot encoding using D – flip-flops (Basys3 board)
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/uti-flip.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/uti-flip.PNG width="100%" height="100%">
 </p>
 
 * Resource utilization for one-hot encoding without using D – flip-flops (Basys3 board)
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/uti.PNG width="50%" height="50%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/uti.PNG width="100%" height="100%">
 </p>
