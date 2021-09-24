@@ -91,7 +91,7 @@ encoding approach all other combinations of the present state bits other than th
 bits are as follows,  
 
 <p align="center">
-  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/equations.PNG width="100%" height="100%">
+  <image src = https://github.com/vihan125/Coin-type-Detector/blob/main/Readme%20Images/equations.PNG width="50%" height="50%">
 </p>
 
 ## VHDL Implementation
